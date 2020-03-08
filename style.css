@@ -1,0 +1,24 @@
+body{
+	background:#000;
+}
+.wrapper{
+	width: 500px;
+	margin: 0px auto 0;
+}
+h2{
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+}
+span{
+	display: block;
+	background-image: url(images.jfif);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: fire 5s linear infinite;
+	-webkit-backface-visibility: hidden;
+}
+@keyframes fire{
+	0%{background-position: 0% -50%;}
+	0%{background-position: 100% -50%;}
+}
